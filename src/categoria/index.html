@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas tradicionales | Sabores de Brasil</title>
+    <link rel="stylesheet" href="../scss/style.scss">
+</head>
+
+<body>
+    <a class="skip-link" href="#contenido">
+        Saltar al contenido principal
+    </a>
+
+    <header class="site-header">
+        <div class="container">
+            <a class="logo" href="/">
+                <img src="../images/logotipo.jpg" alt="Sabores de Brasil" width="80" height="80">
+            </a>
+
+            <nav aria-label="Navegación principal">
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li>
+                        <a href="/categoria/" aria-current="page">
+                            Recetas
+                        </a>
+                    </li>
+                    <li><a href="/links/">Fuentes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenido" class="categoria">
+        <section class="intro">
+            <h1>Recetas tradicionales brasileñas</h1>
+
+            <p class="introduccion">
+                Descubre algunos de los platos más
+                representativos de la gastronomía de Brasil.
+                Cada receta refleja la diversidad cultural
+                y culinaria del país.
+            </p>
+        </section>
+
+        <section class="recetas" aria-labelledby="titulo-recetas">
+            <h2 id="titulo-recetas">Nuestros platos típicos</h2>
+
+            <div class="recetas-grid">
+
+                <article class="receta-card">
+                    <img src="../images/feijoada.jpg" alt="Feijoada brasileña acompañada de arroz, col salteada y rodajas de naranja" width="1200" height="800"
+                        loading="lazy" data-aos="fade-up">
+
+                    <h3>Feijoada brasileña</h3>
+
+                    <p>
+                        Un plato tradicional elaborado con
+                        frijoles negros y diferentes tipos
+                        de carne.
+                    </p>
+
+                    <a href="/det1/" class="btn">Descubrir la feijoada</a>
+                </article>
+
+                <article class="receta-card">
+                    <img src="../images/moqueca.jpg" alt="Moqueca bahiana en olla de cobre" width="1200" height="800"
+                        loading="lazy" data-aos="fade-up">
+
+                    <h3>Moqueca bahiana</h3>
+
+                    <p>
+                        Un guiso de pescado preparado con
+                        leche de coco, verduras y aceite
+                        de dendé.
+                    </p>
+
+                    <a href="/det2/" class="btn">Descubrir la moqueca</a>
+                </article>
+
+                <article class="receta-card">
+                    <img src="../images/pao-de-queijo.jpg" alt="Panecillos brasileños de queso" width="1200" height="800" loading="lazy" data-aos="fade-up">
+
+                    <h3>Pão de queijo</h3>
+
+                    <p>
+                        Una especialidad de Minas Gerais,
+                        elaborada con almidón de mandioca
+                        y queso.
+                    </p>
+
+                    <a href="/det3/" class="btn">Descubrir el pan de queso</a>
+                </article>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Sabores de Brasil. Todos los derechos reservados.</p>
+    </footer>
+
+    <script type="module" src="../js/main.js"></script>
+</body>
+
+</html>

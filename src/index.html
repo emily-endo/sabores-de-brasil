@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabores de Brasil</title>
+  <link rel="stylesheet" href="./scss/style.scss">
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido">
+    Saltar al contenido principal
+  </a>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="/">
+        <img src="./images/logotipo.jpg" alt="Sabores de Brasil" width="80" height="80">
+      </a>
+
+      <nav aria-label="Navegación principal">
+        <ul>
+          <li><a href="/" aria-current="page">Inicio</a></li>
+          <li><a href="/categoria/">Recetas</a></li>
+          <li><a href="/links/">Fuentes</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="contenido" class="inicio">
+    <section class="hero">
+      <h1>Descubre la riqueza de la gastronomía brasileña.</h1>
+
+      <p class="introduccion">
+        Explora los sabores, las tradiciones y las recetas
+        más emblemáticas de Brasil. Un viaje gastronómico
+        por la diversidad cultural de sus regiones.
+      </p>
+
+      <a href="/categoria/" class="btn">
+        Explorar recetas
+      </a>
+    </section>
+
+    <section class="destacados">
+      <h2>Descubre nuestras recetas</h2>
+
+      <p>
+        Conoce algunos de los platos más tradicionales
+        de la cocina brasileña.
+      </p>
+
+      <div class="recetas-grid">
+
+        <article class="receta-card">
+          <img src="./images/feijoada.jpg"
+            alt="Feijoada brasileña acompañada de arroz, col salteada y rodajas de naranja" width="1200" height="800"
+            loading="lazy">
+          <h3>Feijoada brasileña</h3>
+          <p>
+            Una receta tradicional con frijoles negros
+            y diferentes tipos de carne.
+          </p>
+          <a href="/det1/" class="btn">Ver receta de feijoada</a>
+        </article>
+
+        <article class="receta-card">
+          <img src="./images/moqueca.jpg" alt="Moqueca bahiana servida en una olla" width="1200" height="800"
+            loading="lazy">
+          <h3>Moqueca bahiana</h3>
+          <p>
+            Un delicioso guiso de pescado
+            con leche de coco y aceite de dendé.
+          </p>
+          <a href="/det2/" class="btn">Ver receta de moqueca</a>
+        </article>
+
+        <article class="receta-card">
+          <img src="./images/pao-de-queijo.jpg" alt="Panes de queso en una cestita" width="1200" height="800"
+            loading="lazy">
+          <h3>Pão de queijo</h3>
+          <p>
+            Pequeños panes de queso típicos
+            de Minas Gerais.
+          </p>
+          <a href="./det3/index.html" class="btn">Ver receta de pan de queso</a>
+        </article>
+
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Sabores de Brasil. Todos los derechos reservados.</p>
+  </footer>
+  
+  <script type="module" src="./js/main.js"></script>
+</body>
+
+</html>
